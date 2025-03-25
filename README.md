@@ -21,3 +21,5 @@ Update weather automatically
 Responsive Design
 
 Fully optimized for different screen sizes
+
+![image]alr(https://github.com/samiksha-hadge21/weather-task/blob/0a9191637916d0f775d7ccd5684685d7d54e13a2/Screenshot%202025-03-25%20233911.png)
