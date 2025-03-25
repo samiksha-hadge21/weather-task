@@ -1,0 +1,193 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  nav {
+    height: 80px;
+    background-color: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 40px;
+}
+
+.logo {
+    font-size: 35px;
+    color: purple;
+    font-weight: bold;
+    flex: 1; /
+}
+
+nav ul {
+    display: flex;
+   flex: 5;
+    list-style: none;
+    gap: 20px;
+    
+}
+
+nav ul li a {
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+    padding: 10px 15px ;
+}
+
+nav ul li a:hover {
+    color: rgb(133, 221, 250);
+    transition: 0.2s ease;
+}
+
+.mainbtn {
+    display: flex;
+    gap: 10px;
+    flex: 1; 
+    justify-content: flex-end;
+    font-size: 15px;
+}
+
+button {
+    height: 40px;
+    width: 100px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: black;
+    color: whitesmoke;
+  
+}
+
+#tasks button{
+  display: flex;
+justify-content: center;
+align-items: center;
+padding-top: 5px;
+}
+
+
+
+  nav ul {
+    display: flex;
+  list-style:none ;
+  }
+  nav ul li a {
+    padding: 0 50px;
+    font-size: 25px;
+    letter-spacing: 1px;
+  }
+  nav ul li a {
+    color: black;
+    text-decoration: none;
+  }
+  nav ul li a:hover{
+    color: rgb(133, 221, 250);
+    transition: 0.2s ease;
+  }
+  #click:checked~ul{
+    left: 0%;
+    transition: all 0.3s ease;
+  }
+  #click{
+    display: none;
+  }
+  .logo{
+    font-size: 35px;
+    color: purple;
+    text-decoration: none;
+  }
+  .menu-btn{
+    cursor: pointer;
+    display: none;
+  
+  }
+
+  @media(max-width: 950px){
+    .menu-btn{
+      display: block;
+    }
+  nav ul {
+    position: fixed;
+    top: 80px;
+    left: -100%;
+    background: #0290fcef;
+    height: 100vh;
+    width: 100%;
+    display: block;
+   
+  }
+  
+  nav ul li{
+    padding: 40px 0;
+  
+  }
+  }
+
+body {
+    background-image: url(https://pics.craiyon.com/2023-11-16/wHGM0abcSOWVL1p6KEsCZw.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: #121212;
+    color: white;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+   
+    gap: 20px;
+    width: 90%;
+    width: 1200px;
+    height: 500px;
+    padding: 20px;
+    border-radius: 15px;
+    align-items: center;
+   justify-content: center;
+}
+#src-btn{
+    display: flex;
+    gap: 20px;
+}
+
+.weathersection, .todosection {
+    background: rgba(255, 255, 255, .1);
+    backdrop-filter: blur(30px);
+    border: 2px solid rgba(255, 255, 255, .2);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+input, select{
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: none;
+   
+}
+
+button {
+
+
+ height: 40px;
+ width: 120px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #0056b3;
+}
+
+.weatherinfo img {
+    width: 50px;
+}
+
+.taskitem {
+    display: flex;
+    justify-content: space-between;
+    background: #333;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+}
